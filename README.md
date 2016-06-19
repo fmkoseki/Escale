@@ -22,7 +22,7 @@ Escale resolução do problema
 OBS: se der erro por causa da lib curl estar faltando, rode o comando apt-get install php5-curl
 
 ##### Habilitar o vhost www.escale.dev:
-5. Crie um novo arquivo de vhost no nginx, com o conteúdo do arquivo nginx.conf na pasta raiz, na pasta /etc/nginx/sites-available;
+5. Crie um novo arquivo de vhost no nginx, com o conteúdo do arquivo nginx.conf que está na pasta raiz deste projeto, na pasta /etc/nginx/sites-available;
     
 OBS: Caso não tenha sido possível clonar o projeto na pasta /var/www, mude a terceira linha do arquivo nginx.conf para o path aonde clonou o projeto;
 
